@@ -1,0 +1,479 @@
+/*----------| |  Colores  |  |-----------*/
+/*      - header: 
+            background-color:#2bd0cb ;
+        - body:
+            background-color: #f4f1f1;
+
+        -footer:
+            background-color: #2bd0cb;
+
+    */
+/*---------| |   Reset  |  |----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*----------| |   Header  |  |-----------*/
+
+.header {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    /* grid-area: header; */
+    padding: 10px;
+    background-color: #0c6a6b;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 4px 4px 10px #4b4b4b;
+
+
+}
+
+.header__logo {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: transform 0.5s ease;
+
+
+
+
+}
+
+
+.nav__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+
+
+}
+
+.nav__links {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.nav__toggle {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+/*--------| |   Main  |  |---------*/
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-image: url('../img/flores.jpeg');
+    overflow-y: auto;
+    background-size: 100vh;
+
+
+
+
+
+}
+
+/* .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    border: 4px solid #2bd0cb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 30px #93cbc9;
+    width: 70%;
+    background-color: #eef5fd;
+    
+} */
+
+/*--------| |   Hero  |  |---------*/
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+    position: relative;
+
+    z-index: 0;
+    padding: 20px;
+}
+
+
+.hero__h1 {
+    position: absolute;
+    z-index: 1;
+    font-size: 4vw;
+    letter-spacing: 6px;
+    color: #0c6a6b;
+    text-shadow: 8px 8px 12px#eef1f1;
+
+}
+.hero__img{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.hero__h2 {
+    display: flex;
+    flex-direction: column;
+    color: #0c6a6b;
+    text-shadow: 8px 8px 12px#eef1f1;
+    font-size: 2vw;
+
+
+}
+
+
+/*----------||  Card  | |-----------*/
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 3px solid #1f9894;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 30px #1f9894;
+    background-color: #eef5fd;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px;
+    gap: 10px
+}
+
+.card__h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: #0c6a6b;
+}
+
+
+.card__h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+
+
+
+
+}
+
+.card__p {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+
+
+
+}
+
+.card__img {
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    box-shadow: 4px 4px 10px #a9a9a9;
+
+}
+
+.card__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    color: #0c6a6b;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+
+}
+
+.card__imgList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+    height: 100%
+}
+
+/*----------||  Consejos (acordeon)  | |-----------*/
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 10px;
+    padding: 30px;
+    border: 4px solid #1f9894;
+    border-radius: 10px;
+    box-shadow: 4px 6px 30px #1f9894;
+    color: #0c6a6b;
+    background-color: #eef5fd;
+    letter-spacing: 2px;
+
+}
+
+.acordeon__h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+
+}
+
+.acordeon__h2:hover {
+    transform: scale(1.1);
+
+}
+
+.acordeon__h2.active {
+    max-height: 70%;
+}
+
+
+
+.acordeon__bloque--activo .acordeon__contenido {
+    height: auto;
+    padding: 20px;
+}
+
+.acordeon__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    padding: 0;
+    height: 0;
+    font-size: 1.2rem;
+}
+
+.acordeon__img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+   max-width: 700px;
+   
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #a9a9a9;
+    padding: 10px;
+   
+   
+}
+
+/*----------||  Protectoras (Tab)  | |-----------*/
+
+.contentlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    letter-spacing: 2px;
+
+
+}
+
+.bloque {
+    display: none;
+
+}
+
+.bloque.active {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    height: 100%;
+    font-size: 1.2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.bloque__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid #1f9894;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 30px #1f9894;
+    width: 70%;
+    background-color: #eef5fd;
+    color: #0c6a6b;
+
+
+}
+
+
+.bloque__h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #0c6a6b;
+}
+
+.bloque__contenido ul {
+    list-style: none;
+
+}
+
+.bloque__title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #0c6a6b;
+}
+
+.tablist {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #eef5fd;
+    padding: 20px;
+    text-shadow: 4px 2px 2px #eef1f1;
+    color: #1f9894;
+    letter-spacing: 2px;
+}
+
+.tab.active {
+    border-bottom: 2px solid #3dc8e0;
+    font-size: 30px;
+
+}
+
+.tab:hover {
+    color: red;
+}
+
+
+
+/*----------||   Footer  | |-----------*/
+.footer {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    /* grid-area: footer; */
+    padding: 10px;
+    background-color: #0c6a6b;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #fff;
+    box-shadow: 4px 4px 10px #4b4b4b;
+}
+
+/*----------||  Media queries | |-----------*/
+
+@media screen and (max-width:468px) {
+
+    /* body{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    } */
+    .nav__ul {
+        display: none;
+
+    }
+
+    .nav__toggle {
+        display: block;
+    }
+
+    .nav__ul.active {
+        display: flex;
+        flex-direction: column;
+
+        color: #fff;
+        height: 40px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .card__contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .tablist {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+;
