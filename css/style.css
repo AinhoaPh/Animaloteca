@@ -75,7 +75,7 @@
 
 .nav__toggle {
     display: none;
-    cursor: pointer;
+
 }
 
 
@@ -121,7 +121,6 @@ body {
     height: 20vh;
     width: 100%;
     position: relative;
-
     z-index: 0;
     padding: 20px;
 }
@@ -136,7 +135,8 @@ body {
     text-shadow: 8px 8px 12px#eef1f1;
 
 }
-.hero__img{
+
+.hero__img {
     z-index: -1;
     width: 100%;
     height: 100%;
@@ -149,6 +149,8 @@ body {
     color: #0c6a6b;
     text-shadow: 8px 8px 12px#eef1f1;
     font-size: 2vw;
+    background-color: #eef5fd;
+    border-radius: 2px 2px;
 
 
 }
@@ -299,28 +301,22 @@ body {
     height: 0;
     font-size: 1.2rem;
 }
-.acordeon__img{
+
+.acordeon__img {
     height: 500px;
     width: 400px;
 }
-.acordeon__img img{
+
+.acordeon__img img {
     display: flex;
     justify-content: center;
     align-items: center;
-   width: 100%;
-   height: 100%;
-  
-
-
- 
-   max-width: 700px;
-   
-    
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
     border-radius: 20px;
     box-shadow: 4px 4px 10px #a9a9a9;
     padding: 10px;
-   
-   
 }
 
 /*----------||  Protectoras (Tab)  | |-----------*/
@@ -376,8 +372,9 @@ body {
     display: flex;
     justify-content: center;
     font-size: 2rem;
-   text-decoration: none;
+    text-decoration: none;
     color: #0c6a6b;
+    padding: 10px;
 }
 
 .bloque__contenido ul {

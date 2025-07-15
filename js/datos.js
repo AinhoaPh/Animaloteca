@@ -6,13 +6,13 @@ export const madridList = [
       categoria: "Perros y Gatos",
       protectoras: [
         {
-          centro: "El Refugio",
+          nombre: "El Refugio",
           descripcion: "Perros y gatos rescatados del abandono y maltrato.",
           web: "elrefugio.org",
           telefono: "917 303 680"
         },
         {
-          centro: "ANAA (Asociación Nacional de Amigos de los Animales)",
+          nombre: "ANAA (Asociación Nacional de Amigos de los Animales)",
           descripcion: "Protección, rehabilitación y adopción de perros y gatos.",
           web: "anaaweb.org",
           telefono: "913 197 975"
@@ -23,12 +23,12 @@ export const madridList = [
       categoria: "Animales Domésticos (conejos, cobayas, hurones, pequeños roedores, aves domésticas)",
       protectoras: [
         {
-          centro: "La Madriguera",
+          nombre: "La Madriguera",
           descripcion: "Protección y adopción de animales pequeños y exóticos: conejos, hurones, roedores, etc.",
           web: "lamadriguera.org"
         },
         {
-          centro: "APPA La Madrileña",
+          nombre: "APPA La Madrileña",
           descripcion: "Acoge y da en adopción animales domésticos no convencionales.",
           web: "facebook.com/appalamadrilena"
         }
@@ -38,12 +38,12 @@ export const madridList = [
       categoria: "Aves y Aves Exóticas",
       protectoras: [
         {
-          centro: "Vetcon - Proyecto solidario",
+          nombre: "Vetcon - Proyecto solidario",
           descripcion: "Acogen aves exóticas cedidas o rescatadas.",
           web: "vetcon.es/adopciones"
         },
         {
-          centro: "GREFA (también atienden aves rapaces y salvajes)",
+          nombre: "GREFA (también atienden aves rapaces y salvajes)",
           descripcion: "Cría, rehabilitación y reintroducción de aves autóctonas y exóticas.",
           web: "grefa.org"
         }
@@ -53,7 +53,7 @@ export const madridList = [
       categoria: "Fauna Salvaje y Silvestre",
       protectoras: [
         {
-          centro: "CRAS (Centro de Recuperación de Animales Silvestres)",
+          nombre: "CRAS (Centro de Recuperación de Animales Silvestres)",
           descripcion: "Rehabilitación de fauna silvestre: erizos, zorros, reptiles, aves silvestres, etc.",
           direccion: "Tres Cantos",
           web: "comunidad.madrid/cras"
@@ -64,7 +64,7 @@ export const madridList = [
       categoria: "Fauna Exótica y Mamíferos No Domésticos",
       protectoras: [
         {
-          centro: "Vetcon Adopciones",
+          nombre: "Vetcon Adopciones",
           descripcion: "Tienen fichas de reptiles, loros, iguanas, etc.",
           web: "vetcon.es"
         }
@@ -74,12 +74,12 @@ export const madridList = [
       categoria: "Rapaces y Fauna Irrecuperable",
       protectoras: [
         {
-          centro: "GREFA",
-          descripcion: "Principal centro de España en aves rapaces, reptiles, mamíferos silvestres. Mantienen animales irrecuperables para educación ambiental.",
+          nombre: "GREFA",
+          descripcion: "Principal nombre de España en aves rapaces, reptiles, mamíferos silvestres. Mantienen animales irrecuperables para educación ambiental.",
           web: "grefa.org"
         },
         {
-          centro: "Kuna Ibérica",
+          nombre: "Kuna Ibérica",
           descripcion: "Refugio de fauna salvaje irrecuperable. Centro educativo y de concienciación.",
           direccion: "Navas del Rey (Madrid)",
           web: "kunaiberica.es"
@@ -444,31 +444,31 @@ export   const alicanteList = [
       categoria: "Perros y Gatos",
       protectoras: [
         {
-          centro: "Protectora de Animales La Bienvenida",
+          nombre: "Protectora de Animales La Bienvenida",
           descripcion: "Especies: Perros y gatos.",
           direccion: "Ciudad Real",
           sitioWeb: "protectoralabienvenida.org"
         },
         {
-          centro: "Asociación Protectora de Animales de Toledo (APAT)",
+          nombre: "Asociación Protectora de Animales de Toledo (APAT)",
           descripcion: "Especies: Perros y gatos.",
           direccion: "Toledo",
           sitioWeb: "apattoledo.org"
         },
         {
-          centro: "Cuencanimal",
+          nombre: "Cuencanimal",
           descripcion: "Especies: Perros y gatos.",
           direccion: "Cuenca",
           sitioWeb: "cuencanimal.com"
         },
         {
-          centro: "Protectora de Animales de Guadalajara",
+          nombre: "Protectora de Animales de Guadalajara",
           descripcion: "Especies: Perros y gatos.",
           direccion: "Guadalajara",
           sitioWeb: "protectoraguadalajara.org"
         },
         {
-          centro: "Protectora de Animales de Albacete",
+          nombre: "Protectora de Animales de Albacete",
           descripcion: "Especies: Perros y gatos.",
           direccion: "Albacete",
           sitioWeb: "protectoraalbacete.org"
@@ -479,13 +479,13 @@ export   const alicanteList = [
       categoria: "Aves (domésticas y exóticas)",
       protectoras: [
         {
-          centro: "Centro de Recuperación de Fauna Silvestre El Chaparrillo",
+          nombre: "Centro de Recuperación de Fauna Silvestre El Chaparrillo",
           descripcion: "Especies: Aves domésticas y exóticas.",
           direccion: "Ciudad Real",
           sitioWeb: "chaparrillo.castillalamancha.es"
         },
         {
-          centro: "Centro de Recuperación de Fauna Silvestre de Albacete",
+          nombre: "Centro de Recuperación de Fauna Silvestre de Albacete",
           descripcion: "Especies: Aves domésticas y exóticas.",
           direccion: "Albacete",
           sitioWeb: "castillalamancha.es"
@@ -496,13 +496,13 @@ export   const alicanteList = [
       categoria: "Fauna Exótica",
       protectoras: [
         {
-          centro: "Centro de Recuperación de Fauna Silvestre de Cuenca",
+          nombre: "Centro de Recuperación de Fauna Silvestre de Cuenca",
           descripcion: "Especies: Reptiles, loros y otros animales exóticos.",
           direccion: "Cuenca",
           sitioWeb: "castillalamancha.es"
         },
         {
-          centro: "Centro de Recuperación de Fauna Silvestre de Guadalajara",
+          nombre: "Centro de Recuperación de Fauna Silvestre de Guadalajara",
           descripcion: "Especies: Reptiles, loros y otros animales exóticos.",
           direccion: "Guadalajara",
           sitioWeb: "zoo.guadalajara.es"
@@ -513,13 +513,13 @@ export   const alicanteList = [
       categoria: "Fauna Salvaje y Rapaces",
       protectoras: [
         {
-          centro: "Centro de Estudios de Rapaces Ibéricas (CERI)",
+          nombre: "Centro de Estudios de Rapaces Ibéricas (CERI)",
           descripcion: "Especies: Fauna salvaje y rapaces.",
           direccion: "Sevilleja de la Jara, Toledo",
           sitioWeb: "geacam.es"
         },
         {
-          centro: "Parque Cinegético Experimental de El Hosquillo",
+          nombre: "Parque Cinegético Experimental de El Hosquillo",
           descripcion: "Especies: Fauna salvaje y rapaces.",
           direccion: "Cuenca",
           sitioWeb: "es.wikipedia.org"
@@ -530,13 +530,13 @@ export   const alicanteList = [
       categoria: "Mamíferos no domésticos",
       protectoras: [
         {
-          centro: "Centro de Recuperación de Fauna Silvestre de Albacete",
+          nombre: "Centro de Recuperación de Fauna Silvestre de Albacete",
           descripcion: "Especies: Mamíferos salvajes autóctonos.",
           direccion: "Albacete",
           sitioWeb: "castillalamancha.es"
         },
         {
-          centro: "Centro de Recuperación de Fauna Silvestre de Cuenca",
+          nombre: "Centro de Recuperación de Fauna Silvestre de Cuenca",
           descripcion: "Especies: Mamíferos salvajes autóctonos.",
           direccion: "Cuenca",
           sitioWeb: "castillalamancha.es"
@@ -547,13 +547,13 @@ export   const alicanteList = [
       categoria: "Fauna Irrecuperable",
       protectoras: [
         {
-          centro: "Centro de Recuperación de Fauna Silvestre El Chaparrillo",
+          nombre: "Centro de Recuperación de Fauna Silvestre El Chaparrillo",
           descripcion: "Especies: Fauna salvaje irrecuperable.",
           direccion: "Ciudad Real",
           sitioWeb: "chaparrillo.castillalamancha.es"
         },
         {
-          centro: "Centro de Estudios de Rapaces Ibéricas (CERI)",
+          nombre: "Centro de Estudios de Rapaces Ibéricas (CERI)",
           descripcion: "Especies: Fauna salvaje irrecuperable.",
           direccion: "Sevilleja de la Jara, Toledo",
           sitioWeb: "geacam.es"
@@ -564,13 +564,13 @@ export   const alicanteList = [
       categoria: "Otros Animales Domésticos (caballos, burros, etc.)",
       protectoras: [
         {
-          centro: "Santuario La Frontera",
+          nombre: "Santuario La Frontera",
           descripcion: "Especies: Caballos, burros y otros animales de granja.",
           direccion: "Ciudad Real",
           sitioWeb: "teaming.net"
         },
         {
-          centro: "Santuario Happyland",
+          nombre: "Santuario Happyland",
           descripcion: "Especies: Caballos, burros y otros animales de granja.",
           direccion: "Guadalajara",
           sitioWeb: "madridvegano.es"

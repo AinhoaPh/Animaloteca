@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas | Animaloteca</title>
 
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
-    <script src="../js/script.js" defer></script>
+    <script src="./js/script.js" defer></script>
 
 </head>
 
 <body>
     <header class="header">
-        <picture><img class="header__logo" src="../img/logo.jpg" alt="logo"></picture>
+        <picture>
+            <a class="nav__links" href="./index.html"><img class="header__logo" src="./img/logo.jpg" alt="logo"></a>
+        </picture>
         <!-- Navbar -->
         <nav class="nav">
 
@@ -24,7 +26,7 @@
             </span> -->
 
             <ul class="nav__ul">
-                <li><a class="nav__links" href="./index.html">Inicio</a></li>
+
                 <li><a class="nav__links" href="./dietas-y-recetas.html">Recetas</a></li>
                 <li><a class="nav__links" href="./consejos.html">Consejos</a></li>
                 <li><a class="nav__links" href="./protectoras-refugios.html">Protectoras & Refugios</a></li>
@@ -36,10 +38,10 @@
 
     <main class="container">
 
-        <section class="hero">
+        <article class="hero">
             <h1 class="hero__h1">Recetas</h1>
 
-        </section>
+        </article>
         <!-- <picture class="card">
             <img  class="card__img" src="../img/proh-perros.jpg" alt="prohibido perros">
         </picture>
@@ -55,14 +57,16 @@
                 </p>
                 <p>En caso de vomitos, diarrea o empeoramiento acuda lo antes posible a su veterinario.</p>
             </div>
-            <a  target="_blank" href="https://wsava.org/wp-content/uploads/2020/06/Frequently-Asked-Questions-and-Myths-Spanish.pdf">Preguntas
+            <a target="_blank"
+                href="https://wsava.org/wp-content/uploads/2020/06/Frequently-Asked-Questions-and-Myths-Spanish.pdf">Preguntas
                 frecuentes y mitos (WSAVA)</a>
         </article>
-        <article class="card">
+        <article class="acordeon acordeon__bloque">
 
-            <div class="card__contenido">
-                <picture><img class="card__img" src="../img/sopa.jpeg" alt="sopa de moro" loading="lazy"></picture>
-                <h2 class="card__h2">Sopa de Moro (perros con diarrea)</h2>
+
+            <picture><img class="acordeon__img" src="./img/sopa.jpeg" alt="sopa de moro" loading="lazy"></picture>
+            <h2 class="acordeon__h2">Sopa de Moro (perros con diarrea)</h2>
+            <div class="acordeon__contenido">
                 <h3 class="card__h3">Ingredientes:</h3>
                 <ul>
 
@@ -82,17 +86,17 @@
             </div>
         </article>
 
-        <article class="card">
+        <article class="acordeon acordeon__bloque">
+            <picture class="card__imgList"><img class="acordeon__img" src="./img/barritas-avena.jpg"
+                alt="barritas de avena" loading="lazy"></picture>
+
+
+        <h2 class="acordeon__h2">Barritas de avena para roedores</h2>
 
 
 
-            <div class="card__contenido">
-                <picture class="card__imgList"><img class="card__img" src="../img/barritas-avena.JPG"
-                        alt="barritas de avena" loading="lazy"></picture>
-
-
-                <h2 class="card__h2">Barritas de avena para roedores</h2>
-
+            <div class="acordeon__contenido">
+         
                 <h3 class="card__h3">Ingredientes:</h3>
                 <ul>
 
@@ -102,7 +106,7 @@
                 </ul>
                 <h3 class="card__h3">Preparación</h3>
                 <ol>
-                    <li>Mezclar bien todos los ingredientes./li>
+                    <li>Mezclar bien todos los ingredientes.</li>
                     <li>Forma barritas pequeñas.</li>
                     <li>Hornea a 160ºC durante 15 min.</li>
                     <li>Dejar enfriar y ofrecer en pequeñas cantidades.</li>
@@ -113,7 +117,7 @@
         <article class="card">
 
             <div class="card__contenido">
-                <picture><img class="card__img" src="../img/suero.jpeg" alt="suero" loading="lazy"></picture>
+                <picture><img class="card__img" src="./img/suero.jpeg" alt="suero" loading="lazy"></picture>
                 <h2 class="card__h2">Suero casero para perros y gatos</h2>
                 <h3 class="card__h3">Ingredientes:</h3>
                 <ul>
@@ -135,7 +139,7 @@
         <article class="card">
 
             <div class="card__contenido">
-                <picture><img class="card__img" src="../img/papilla-gatos.JPG" alt="barritas de avena" loading="lazy">
+                <picture><img class="card__img" src="./img/papilla-gatos.jpg" alt="barritas de avena" loading="lazy">
                 </picture>
                 <h2 class="card__h2">Papilla nutritiva para gatos</h2>
                 <h3 class="card__h3">Ingredientes:</h3>
