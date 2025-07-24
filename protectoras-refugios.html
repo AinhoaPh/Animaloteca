@@ -13,15 +13,15 @@
 
     <link rel="stylesheet" href="./css/style.css">
 
-    <script type="module" src="./js/script.js" ></script>
+    <script type="module" src="./js/script.js" defer></script>
 
 </head>
 
 <body>
     <header class="header">
-        <picture> 
+        <div>
             <a class="nav__links" href="./index.html"><img class="header__logo" src="./img/logo.jpg" alt="logo"></a>
-        </picture>
+        </div>
         <!-- Navbar -->
         <nav class="nav">
 
@@ -31,7 +31,7 @@
             </span> -->
 
             <ul class="nav__ul">
-           
+
                 <li><a class="nav__links" href="./dietas-y-recetas.html">Recetas</a></li>
                 <li><a class="nav__links" href="./consejos.html">Consejos</a></li>
                 <li><a class="nav__links" href="./protectoras-refugios.html">Protectoras & Refugios</a></li>
@@ -42,17 +42,17 @@
     </header>
 
 
-    <main class="contentlist">
+    <main class="container">
 
-        <section class="hero">
+        <header class="hero">
             <!-- <img class="hero__img"  src="#" alt="no-abandones"> -->
             <h1 class="hero__h1">Protectoras, Refugios & Centros de Recuperación</h1>
 
 
 
-        </section>
+        </header>
         <section class="container">
-          
+
             <ul class="tablist">
                 <li class="tab active">Madrid</li>
                 <li class="tab">Valencia</li>
@@ -60,24 +60,26 @@
                 <li class="tab">Galicia</li>
                 <li class="tab">Castellón</li>
                 <li class="tab">Castilla La Mancha</li>
-              </ul>
-              
-              <div class="contentlist">
+            </ul>
+
+            <div class="contentlist">
                 <h2 class="hero__h2">Abandonar No Es Una Opción</h2>
                 <section class="bloque" id="madrid"></section>
                 <section class="bloque" id="valencia"></section>
                 <section class="bloque" id="alicante"></section>
                 <section class="bloque" id="galicia"></section>
                 <section class="bloque" id="castellon"></section>
-                <section class="bloque" id="castilla"></section> 
-              </div>
-              
-      
+                <section class="bloque" id="castilla"></section>
+            </div>
+
+
 
         </section>
     </main>
     <footer class="footer">
-        <p class="footer__p">LOGO &copy; 2025 - Todos los derechos reservados.
+
+        <p class="footer__p"> <a class="nav__links" href="./index.html">Animaloteca &copy;</a> 2025 - Todos los derechos
+            reservados.
 
         </p>
     </footer>
