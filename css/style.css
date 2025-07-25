@@ -470,6 +470,7 @@ body {
         position: absolute;
         z-index: 2;
         height: auto;
+        top: 100%;
     }
 
     .card {
