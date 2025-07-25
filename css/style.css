@@ -471,6 +471,7 @@ body {
         z-index: 2;
         height: auto;
         top: 100%;
+        margin-bottom: 20px;
     }
 
     .card {
