@@ -1,11 +1,23 @@
 /*----------| |  Colores  |  |-----------*/
 /*      - header: 
-            background-color:#2bd0cb ;
+            background-color:#0c6a6b;
+            box-shadow: #4b4b4b;
+            color: #fff;
         - body:
-            background-color: #f4f1f1;
-
+              background-image: url('../img/flores.jpeg');
+           -hero:
+                color: #0c6a6b;
+                text-shadow: #eef1f1;
+                background-color: #eef5fd;
+                
+            -card y acordeon y tab:
+                   background-color: #eef5fd;
+                   box-shadow: #1f9894;
+                   color: #0c6a6b;
         -footer:
-            background-color: #2bd0cb;
+            background-color:#0c6a6b;
+            box-shadow: 4px 4px 10px #4b4b4b;
+            color: #fff;
 
     */
 /*---------| |   Reset  |  |----------*/
