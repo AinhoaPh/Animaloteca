@@ -467,7 +467,6 @@ body {
         flex-direction: column;
         background-color: #0c6a6b;
         color: #fff;
-        height: 80px;
         position: absolute;
         z-index: 2;
         height: auto;
