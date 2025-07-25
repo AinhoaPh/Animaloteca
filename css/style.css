@@ -448,6 +448,10 @@ body {
        justify-content: center;
        align-items: center;
     } */
+     .header{
+        position: relative;
+        z-index: -1;
+     }
     .nav__ul {
         display: none;
 
@@ -464,6 +468,8 @@ body {
         background-color: #0c6a6b;
         color: #fff;
         height: 40px;
+        position: absolute;
+        z-index: 1;
     }
 
     .card {
